@@ -14,16 +14,18 @@ header .navigation {
     padding-bottom: 60px;
 }
 
-header a {
+.navigation a {
     font-family: "Muli", "Open Sans", "Helvetica", sans-serif;
     font-size: 18px;
     text-decoration: none;
     color: rgb(20, 20, 20);
-    margin-right: 120px;
+    margin-right: 100px;
+    padding-bottom: 5px;
 }
 
-header a:hover {
+.navigation a:hover {
     color: black;
+    border-bottom: 2px solid rgb(150, 150, 150);
 }
 
 .main-content {
@@ -33,18 +35,19 @@ header a:hover {
 
 .blurb {
     font-size: 24px;
+    line-height: 2.0;
     margin-bottom: 30px;
 }
 
 a {
-    color: rgb(102, 153, 204);
+    color: rgb(52, 123, 204);
     text-decoration: none;
+    padding-bottom: 3px;
 }
 
 a:hover {
     color: rgb(0, 51, 102);
     border-bottom: 1px solid rgb(0, 51, 102);
-    padding-bottom: 3px;
 }
 
 h1, h2, h3 {
@@ -78,9 +81,152 @@ h1, h2, h3 {
  */
 .col-3-4 {
     width: 75%;
+    padding-right: 80px;
+}
+
+.details section {
+    margin-bottom: 30px;
 }
 
 .about-text {
     line-height: 2;
-    font-size: 16px;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 36px; /* Line height * font size */
+}
+
+.details .heading {
+    border-bottom: 1px solid rgb(200, 100, 100);
+    padding-bottom: 2px;
+}
+
+
+
+header {
+    height: 150px;
+    width: 100%;
+}
+
+header .navigation {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.navigation a {
+    font-family: "Muli", "Open Sans", "Helvetica", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    margin-right: 100px;
+    padding-bottom: 5px;
+}
+
+.navigation a:hover {
+    color: black;
+    border-bottom: 2px solid rgb(200, 100, 100);
+}
+
+.main-content {
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.blurb {
+    font-size: 24px;
+    line-height: 2.0;
+    margin-bottom: 30px;
+}
+
+a {
+    color: rgb(52, 123, 204);
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+
+a:hover {
+    color: rgb(0, 51, 102);
+    border-bottom: 1px solid rgb(0, 51, 102);
+}
+
+h1, h2, h3 {
+    font-family: "Muli", "Open Sans", "Helvetica", sans-serif;
+}
+
+.logo {
+    height: 100px;
+    float: right;
+    margin: 25px 20px 0 25px;;
+}
+
+.highlight {
+    padding: 3px 10px;
+}
+
+.highlight.green {
+    background-color: rgb(240, 255, 240);
+}
+
+.highlight.red {
+    background-color: rgb(255, 230, 240);
+}
+
+.highlight.blue {
+    background-color: rgb(235, 240, 255);
+}
+
+/* 
+ * ABOUT PAGE
+ */
+.col-3-4 {
+    width: 75%;
+    padding-right: 80px;
+}
+
+.details section {
+    margin-bottom: 30px;
+}
+
+.about-text {
+    line-height: 2;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 36px; /* Line height * font size */
+}
+
+.details .heading {
+    border-bottom: 1px solid rgb(200, 100, 100);
+    padding-bottom: 2px;
+}
+
+
+
+
+/* 
+ * RESOURCES PAGE
+ */
+.resources .presentation {
+    margin: 0 auto 20px auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.resources .presentation {
+    margin: 0 auto 20px auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.resources .button {
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 230, 240);
+    font: 18px Muli, "Open Sans", "Helvetica", sans-serif;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+.resources .button:hover {
+    border: 1px solid rgb(150, 150, 150);
+    padding: 3px 7px;
 }
