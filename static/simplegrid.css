@@ -70,6 +70,10 @@ body {
     width: 20%;
 }
 
+.col-4-5 {
+    width: 80%;
+}
+
 .col-1-6, .col-2-12 {
     width: 16.667%;
 }
