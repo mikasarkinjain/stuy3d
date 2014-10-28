@@ -104,7 +104,8 @@ header .grid-pad {
 .blurb {
     font-size: 24px;
     line-height: 2.0;
-    margin-bottom: 30px;
+    margin: 0 0 30px 0;
+    width: 90%;
 }
 
 a {
@@ -164,43 +165,51 @@ h1, h2, h3 {
     margin: 0 auto;
 }
 
-.about-page section {
-    margin-bottom: 30px;
-}
 
-
-.about-page .heading {
+.heading {
     border-bottom: 1px solid rgb(200, 100, 100);
     padding-bottom: 2px;
 }
 
-.about-page .grid {
+.equipment-heading {
+    margin-bottom: 20px;
+}
+
+.grid {
     margin-top: 20px;
 }
 
-.about-page .grid h3 {
+.leadership {
+    margin-top: 20px;
+}
+
+.grid h3 {
     margin-top: 0;
 }
 
-.about-page .details img {
+.details img {
     width: 100%;
-    height: 200px;
     width: 200px;
     max-width: 100%;
     max-height: 100%;
 }
 
-.about-page img[src="../static/uprint.jpg"] {
+img[src="../static/uprint.jpg"] {
     /* 1.00:1.27 */
     width: 181px;
     height: 230px;
 }
 
-.about-page .details p {
+img[src="../static/sketchup.jpg"] {
+    max-height: none;
+    height: auto;
+}
+
+.details p {
     margin-bottom: 15px;
 }
 
-.about-page .details h3 {
+.details h3 {
     font-weight: normal;
 }
 
@@ -239,6 +248,10 @@ h1, h2, h3 {
 
 .resources .button:active{
     background-color: rgb(235, 200, 210);
+}
+
+.equipment .col-1-2 {
+    margin-bottom: 20px;
 }
 
 /* 
